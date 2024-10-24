@@ -36,8 +36,8 @@ maximo (50,25)
 document.write( "<br>"+ "el número mayor es " + maximo(25,2))
 
 var suma= function(numero1, numero2){
-    var numero1=parseInt(document.getElementByID("numero1").value);
-    var numero2=parseInt(document.getElementByID("numero2").value);
+    var numero1=parseInt(document.getElementById("numero1").value);
+    var numero2=parseInt(document.getElementById("numero2").value);
     var resultado= numero1+numero2
     return resultado
 }
